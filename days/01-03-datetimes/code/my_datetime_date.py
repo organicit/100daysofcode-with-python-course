@@ -10,6 +10,7 @@ def new_pomodoro():
     total_pom_minutes = 25
     total_pom_seconds = total_pom_minutes * 60
     time.sleep(total_pom_seconds)
+    os.system('say "Your pomodoro is completed"')
 
 
 def alexa_pomodoro():
